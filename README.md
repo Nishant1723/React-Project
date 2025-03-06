@@ -15,8 +15,27 @@ This is a **React-based application** that interacts with the **Swiggy API** to 
 
 ## 📂 Project Structure
 
-src/ │── components/ │ ├── Header.js # Navbar with navigation links │ ├── Body.js # Main content with restaurant listings │ ├── About.js # About page │ ├── Contact.js # Contact page │ ├── Error.js # Error handling page │ ├── RestaurantMenu.js # Displays restaurant menu details │ ├── Cart.js # Shopping cart page │ ├── Grocery.js # Lazily loaded grocery component │ ├── User.js # Functional component for user profile │ ├── UserClass.js # Class-based component for user profile │── utils/ │ ├── userContext.js # React Context for managing user state │ ├── appStore.js # Redux store setup │ ├── cartSlice.js # Redux slice for cart management │ ├── useOnlineStatus.js # Custom hook to detect online status │ ├── useRestaurantMenu.js # Custom hook to fetch menu details │── App.js # Main component │── index.js # Entry point of the app │── README.md # Documentation
-
+src/
+│── components/
+│   ├── Header.js
+│   ├── Body.js
+│   ├── About.js
+│   ├── Contact.js
+│   ├── Error.js
+│   ├── RestaurantMenu.js
+│   ├── Cart.js
+│   ├── Grocery.js (Lazy Loaded)
+│   ├── User.js
+│   ├── UserClass.js
+│── utils/
+│   ├── userContext.js
+│   ├── appStore.js
+│   ├── cartSlice.js
+│   ├── useOnlineStatus.js
+│   ├── useRestaurantMenu.js
+│── App.js
+│── index.js
+│── README.md
 
 ## 🛠️ Technologies Used  
 
