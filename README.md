@@ -13,49 +13,6 @@ This is a **React-based application** that interacts with the **Swiggy API** to 
 ✅ **Lazy Loading**: Grocery component is loaded lazily for performance optimization.  
 ✅ **Online Status Detection**: Detects if the user is offline.  
 
-## 📂 Project Structure
-
-src/
-│── components/
-<br>
-│   ├── Header.js
-<br>
-│   ├── Body.js
-<br>
-│   ├── About.js
-<br>
-│   ├── Contact.js
-<br>
-│   ├── Error.js
-<br>
-│   ├── RestaurantMenu.js
-<br>
-│   ├── Cart.js
-<br>
-│   ├── Grocery.js (Lazy Loaded)
-<br>
-│   ├── User.js
-<br>
-│   ├── UserClass.js
-<br>
-│── utils/
-<br>
-│   ├── userContext.js
-<br>
-│   ├── appStore.js
-<br>
-│   ├── cartSlice.js
-<br>
-│   ├── useOnlineStatus.js
-<br>
-│   ├── useRestaurantMenu.js
-<br>
-│── App.js
-<br>
-│── index.js
-<br>
-│── README.md
-<br>
 
 ## 🛠️ Technologies Used  
 
